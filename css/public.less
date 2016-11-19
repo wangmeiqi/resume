@@ -1,0 +1,23 @@
+
+
+@color-text:#fff;
+@color-text1:#000;
+
+@background-size:100% 100%;
+@background-white:#fff;
+
+@img-url:'../img';
+
+.animation(@name:move,@duration:1s,@timing-function:linear,@delay:0s,@interation-count:1,@play-mode:both){
+  -webkit-animation: @arguments;
+  animation: @arguments;
+};
+.box-shadow(@style,@alpha:0){
+  -webkit-box-shadow: @style rgba(254, 247, 220,@alpha);
+  box-shadow:@style rgba(254, 247, 220,@alpha) ;
+}
+/*
+.transform(@rotate:0deg,@scale:1,@skew:1,@translate:0){
+  -webkit-transform: @arguments;
+  transform: @arguments;
+}*/
