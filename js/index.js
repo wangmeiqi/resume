@@ -84,7 +84,6 @@ function writePage() {
             var oP=document.createElement('em');
             oP.innerHTML=str[i];
             frg.appendChild(oP);
-            console.log(frg);
         }
         project.appendChild(frg);
         frg=null;
