@@ -64,7 +64,7 @@ var flag=true;
 function writePage() {
     var project=document.getElementById('project');
     var page=project.getElementsByTagName('em');
-    var str='负责电子商务网站前端开发，移动端html5页面开发，移动应用开发（混合应用）参与需求评审，对需求完善及实施提供方案；负责指导攻克技术难点及解决稳定性和性能问题；参与核心业务编码工作并保证编码工作具有良好的维护性。';
+    var str='多项网页制作：1、负责将UI的设计稿转化为静态页面；2、负责动态网页的编写，活动宣传页面等；3、负责后续代码优化，改版等；';
     var n=0;
     createP();
     clearInterval(timer);
