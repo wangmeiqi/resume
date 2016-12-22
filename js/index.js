@@ -64,7 +64,7 @@ var flag=true;
 function writePage() {
     var project=document.getElementById('project');
     var page=project.getElementsByTagName('em');
-    var str='多项网页制作：1、负责将UI的设计稿转化为静态页面；2、负责动态网页的编写，活动宣传页面等；3、负责后续代码优化，改版等；';
+    var str='多项网页制作：1、负责将UI的设计稿转化为静态页面；2、负责动态网页的编写，活动宣传页面等；3、负责后续代码优化，改版等；移动端：1、负责搭建移动端页面，确保在各个型号手机上正常展示2、使用html5、css3、zepto、iscroll、rem响应式布局等技术，实现多种动画效果3、对页面图片进行优化，确保页面流畅';
     var n=0;
     createP();
     clearInterval(timer);
